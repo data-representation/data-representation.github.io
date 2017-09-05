@@ -7,7 +7,7 @@ Ian McLoughlin
 
 ian.mcloughlin@gmit.ie
 
-ianmcloughlin.github.io
+[ianmcloughlin.github.io](https://ianmcloughlin.github.io)
 
 ## Learning outcomes
 On completion of this module the learner will be able to:
