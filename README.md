@@ -19,6 +19,7 @@ On completion of this module the learner will be able to:
 
 
 ## Assessment
+
 | Type                         | Weight |
 | -----------------------------|--------|
 | Continuous Assessment        | 50%    |
