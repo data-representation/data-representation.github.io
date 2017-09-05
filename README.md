@@ -43,3 +43,7 @@ On completion of this module the learner will be able to:
 - Request-Response
 - Asynchronous Javascript And Xml (AJAX)
 - Sessions
+
+## Language
+For this module we will be using [the Go programming language](https://golang.org/).
+No prior knowledge of Go is required.
