@@ -26,18 +26,18 @@ On completion of this module the learner will be able to:
 
 
 ## Syllabus
-###### Fundamentals
+### Fundamentals
 - HyperText Transfer Protocol (HTTP)
 - Uniform Resource Locator (URL) encoding
 - REpresentational State Transfer (REST)
 
-###### Data models
+### Data models
 - JavaScript Object Notation (JSON)
 - eXtensible Markup Language (XML)
 - Document Object Model (DOM)
 - Document-oriented storage
 
-###### Architectures
+### Architectures
 - Client-Server
 - Request-Response
 - Asynchronous Javascript And Xml (AJAX)
