@@ -27,10 +27,12 @@ On completion of this module the learner will be able to:
 
 
 ## Syllabus
+
 ### Fundamentals
 - HyperText Transfer Protocol (HTTP)
 - Uniform Resource Locator (URL) encoding
 - REpresentational State Transfer (REST)
+
 
 ### Data models
 - JavaScript Object Notation (JSON)
@@ -38,12 +40,25 @@ On completion of this module the learner will be able to:
 - Document Object Model (DOM)
 - Document-oriented storage
 
+
 ### Architectures
 - Client-Server
 - Request-Response
 - Asynchronous Javascript And Xml (AJAX)
 - Sessions
 
+
 ## Language
 For this module we will be using [the Go programming language](https://golang.org/).
 No prior knowledge of Go is required.
+
+
+## Notes
+
+1. [Go fundamentals](notes/go.md)
+2. [HyperText Transfer Protocol](notes/http.md)
+
+
+## Problems
+
+1. [Go fundamentals](problems/go-fundamentals.md)
