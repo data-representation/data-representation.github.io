@@ -120,7 +120,7 @@ In the next few sections we'll see how to do ths in Go.
 [Go](https://golang.org/) is a programming language created by Robert Griesemer, Rob Pike, and Ken Thompson at Google.
 Ken Thompson and Rob Pike worked at the famous Bell Labs.
 
-![Robert Griesemer, Rob Pike, and Ken Thompson](../img/go-authors.jpg) 
+![Robert Griesemer, Rob Pike, and Ken Thompson](../images/go-authors.jpg) 
 
 
 
@@ -269,7 +269,7 @@ https://tour.golang.org/basics/4
 - Luckily, Go provides a tool called `go` that manages lots of things for us.
 - For instance, we can use go to compile a program.
 
-![Go in Notepad++](../img/go-npp.png)
+![Go in Notepad++](../images/go-npp.png)
 
-![Go in Notepad++](../img/go-build.png)
+![Go in Notepad++](../images/go-build.png)
 

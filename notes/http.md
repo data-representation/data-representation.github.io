@@ -18,7 +18,7 @@ The following is mainly taken from that.
 - `RFC 2616` details `HTTP/1.1`.
 - It is a standard way of transmitting data, such as HTML, CSS, JavaScript (text), images, and videos across the web.
 
-![GMIT Hopepage](../img/gmit-homepage.png)
+![GMIT Hopepage](../images/gmit-homepage.png)
 
 ## Why study HTTP?
 >HTTP is the network protocol of the Web. It is both simple and powerful. Knowing HTTP enables you to write Web browsers, Web servers, automatic page downloaders, link-checkers, and other useful tools. - *James Marshall*
@@ -51,7 +51,7 @@ The following is mainly taken from that.
 
 
 ## Request-Response
-![Request Response model](/img/request-response.png)
+![Request Response model](/images/request-response.png)
 
 
 ## Uniform Resource Locator
@@ -140,7 +140,7 @@ Requests and responses both have this format:
 ## Standard 404 page
 Many websites will send a special web page with when they are returning a 404 status.
 Here's Google's:
-![Google's 404 page](../img/google-404.png)
+![Google's 404 page](../images/google-404.png)
 So,t a response can contain data even when the code is not 200.
 
 
@@ -162,7 +162,7 @@ So,t a response can contain data even when the code is not 200.
 - Both times the requested resource is `/`, the root resource.
 - Another way to send extra data to the server is in the request body (the typical way for `POST` requests.)
 
-![Google's root resource with q=gmit](../img/google-q-gmit.png)
+![Google's root resource with q=gmit](../images/google-q-gmit.png)
 
 
 ## URL encoding
