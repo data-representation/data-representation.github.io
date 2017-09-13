@@ -62,3 +62,7 @@ No prior knowledge of Go is required.
 ## Problems
 
 1. [Go fundamentals](problems/go-fundamentals.md)
+
+## Resources
+
+1. [Example repository](https://github.com/data-representation/go-examples)
