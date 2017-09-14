@@ -3,8 +3,8 @@ Before we dive into Go, let's quickly review programming in general.
 
 ## Purpose of a programming language
 - Computers are really fast at carrying out a list of simple instructions.
-- A processor can only carry out a limitied set of basic instruction (add, shift, etc.), but it can do them fast.
-- Programming languages provide an abstraction from the processor.
+- A processor can only carry out a limitied set of basic instructions (add, shift, etc.), but it can do them very quickly.
+- Programming languages provide an **abstraction** from the processor.
 - They allow programmers to think more like humans, rather than in terms of the machine.
 - Consider the following C source code.
 
@@ -21,7 +21,7 @@ int main() {
 - The line with the `printf` looks like a single instruction, but will actually result in the processor carrying out a few different instructions in sequence.
 - Consider the equivalent assembly code (for Linux):
 
-```assembly
+```nasm
 global _start
 
 section .text
