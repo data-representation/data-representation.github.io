@@ -1,4 +1,4 @@
-# Data Repesentation and Querying
+# Data Representation and Querying
 A module in which students will investigate and operate the protocols, standards and architectures used in representing and querying the data that exists across the internet.
 Students will also gain practical experience in developing applications that interact with such data.
 
@@ -36,7 +36,7 @@ On completion of this module the learner will be able to:
 
 ### Data models
 - JavaScript Object Notation (JSON)
-- eXtensible Markup Language (XML)
+- eXtensible Mark-up Language (XML)
 - Document Object Model (DOM)
 - Document-oriented storage
 
@@ -44,7 +44,7 @@ On completion of this module the learner will be able to:
 ### Architectures
 - Client-Server
 - Request-Response
-- Asynchronous Javascript And Xml (AJAX)
+- Asynchronous JavaScript And Xml (AJAX)
 - Sessions
 
 
