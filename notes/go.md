@@ -3,7 +3,7 @@ Before we dive into Go, let's quickly review programming in general.
 
 ## Purpose of a programming language
 - Computers are really fast at carrying out a list of simple instructions.
-- A processor can only carry out a limitied set of basic instructions (add, shift, etc.), but it can do them very quickly.
+- A processor can only carry out a limited set of basic instructions (add, shift, etc.), but it can do them very quickly.
 - Programming languages provide an **abstraction** from the processor.
 - They allow programmers to think more like humans, rather than in terms of the machine.
 - Consider the following C source code.
@@ -18,7 +18,7 @@ int main() {
 ```
 
 - The code is fairly easy to read from a human point of view (though you need to know a bit about programming).
-- The line with the `printf` looks like a single instruction, but will actually result in the processor carrying out a few different instructions in sequence.
+- The line with the `printf` looks like a single instruction, but will result in the processor carrying out a few different instructions in sequence.
 - Consider the equivalent assembly code (for Linux):
 
 ```nasm
@@ -41,10 +41,10 @@ msg:	db	"Hello, world!", 10
 .len:	equ	$ - msg
 ```
 
-- You have to do a lot of mental decoding to figure out what it does (assuming you know assembly in the first place!)
+- You must do a lot of mental decoding to figure out what it does (assuming you know assembly in the first place!)
 - Assembly is a programming language, but it is a low-level one.
 - This means that it is closer to the instructions that the processor carries out itself.
-- Here's the punchline: programming languages save us from the nitty-gritty of how the computer works.
+- Here's the punchline: programming languages save us from the practical details of how the computer works.
 
 
 ## What programs are
@@ -80,18 +80,18 @@ msg:	db	"Hello, world!", 10
 
 ## What compilers do
 - A compiler/interpreter translates text files into machine instructions.
-- You have to read the documentation for the compiler to know what syntax the text file must follow.
+- You must read the documentation for the compiler to know what syntax the text file must follow.
 - A compiler does the translation and outputs file called an executable.
 - An operating system knows how to take an executable file and run it through the processor.
 - You can send the executable to your friend and they can run it, without having the source code or installing the compiler on their own machine - it just runs.
-- An interpretor, on the other hand, translates the programming code into machine instructions and runs them there and then.
+- An interpreter, on the other hand, translates the programming code into machine instructions and runs them there and then.
 - It's like a compiler that immediately runs the executable and then throws it away.
-- If you want to send your friend your interpretor-style program, you send them the source code and they have to have the interpretor installed on their machine to run it.
-- So, it sounds like compilers should naturally win over interpretors - right?
+- If you want to send your friend your interpreter-style program, you send them the source code and they have to have the interpreter installed on their machine to run it.
+- So, it sounds like compilers should naturally win over interpreter - right?
 - If you're writing software for non-programmers then usually the answer is yes.
 - A big snag with compilers is that they target certain operating systems and machines. If I compile a program for Windows then my friend on a Mac can't run the executable.
 - Another big snag is that my friend can't easily modify the program, as they don't have the source code.
-- There are a lot of trade-offs. In truth, it's not quite as straight-forward as compiler versus interpretor. It's more of a spectrum - languages like Java are half-compiled, half-interpreted.
+- There are a lot of trade-offs. In truth, it's not quite as straight-forward as compiler versus interpreter. It's more of a spectrum - languages like Java are half-compiled, half-interpreted.
 
 
 ## Learning a new programming language
