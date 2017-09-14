@@ -2,7 +2,7 @@
 Before we dive into Go, let's quickly review programming in general.
 
 ## Purpose of a programming language
-- Computers are really fast at carrying out a list of simple instructions.
+- Computers are machines that are superfast at carrying out a list of simple instructions.
 - A processor can only carry out a limited set of basic instructions (add, shift, etc.), but it can do them very quickly.
 - Programming languages provide an **abstraction** from the processor.
 - They allow programmers to think more like humans, rather than in terms of the machine.
@@ -17,9 +17,9 @@ int main() {
 }
 ```
 
-- The code is fairly easy to read from a human point of view (though you need to know a bit about programming).
+- The code is fairly easy to read from a human point of view, although you need to know a bit about programming.
 - The line with the `printf` looks like a single instruction, but will result in the processor carrying out a few different instructions in sequence.
-- Consider the equivalent assembly code (for Linux):
+- Consider the equivalent Linux assembly code:
 
 ```nasm
 global _start
@@ -54,7 +54,7 @@ msg:	db	"Hello, world!", 10
 - They're all written as text files.
 - Every file on a computer is just a chunk of 0's and 1's.
 - A text file is just a file that where the bytes represent human-style characters.
-- A translation table is used to translate between the 0's and 1's and the squiggles on the screen (characters) that your monitor displays.
+- A translation table is used to translate between the 0's and 1's and the squiggles on the screen, called *characters*, that your monitor displays.
 - A text editor reads all the 0's and 1's and translates them into squiggles on the screen.
 - It also writes the correct 0's and 1's to memory for every key you press.
 - There are lots of different translation tables these days, but the best known is still ASCII.
@@ -130,8 +130,8 @@ Ken Thompson and Rob Pike worked at the famous Bell Labs.
 - **Packages** are easily managed and dependencies are quickly resolved.
 - **Type inference** is available (sometimes).
 - **C-like** in syntax. 
-- **Tools** like go fmt and godoc are builtin. 
-- **Garbage collection** is builtin.
+- **Tools** like go fmt and godoc are built-in. 
+- **Garbage collection** is built-in.
 
 
 ## Hello, world!
