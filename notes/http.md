@@ -32,7 +32,7 @@ The following is mainly taken from that.
 ## Why is HTTP so widely used?  
 - **HTTP** is often used instead of protocols that are more suited to the application.
 - **Browsers** are one of the main reasons for this.
-- **Ooperating systems** typically have a browser installed by default.
+- **Operating systems** typically have a browser installed by default.
 - **Web servers** and browsers mainly talk over HTTP.
 - **Libraries** exist for most programming languages to make HTTP requests.
 - **HTTP** is relatively straight-forward.
@@ -109,7 +109,7 @@ Requests and responses both have this format:
 > HTTP is used to transmit resources...a resource is some chunk of information that can be identified by a URL...The most common kind of resource is a file, but a resource may also be a dynamically-generated query result... - *James Marshall*
 
 - In the 90's most resources were normal (static) text files and image files sitting on the server.
-- They were requrested using their path: `http://www.gmit.ie/ian/homepage.html`
+- They were requested using their path: `http://www.gmit.ie/ian/homepage.html`
 - These days most resources are dynamically generated from templates and database queries.
 - A request will trigger a database query and the result set will be inserted into a HTML template, which forms the resource.
 
@@ -129,7 +129,7 @@ Requests and responses both have this format:
 ## Status codes
 - `404` means you requested a resource that doesn't exist on the server.
 - `200` means everything is OK, and is the most common one in everyday browsing.
-- `All` status codes are three digit numbers.
+- `All` status codes are three-digit numbers.
 - `1xx` indicates an informational message only
 - `2xx` indicates success of some kind
 - `3xx` redirects the client to another URL
@@ -141,7 +141,7 @@ Requests and responses both have this format:
 Many websites will send a special web page with when they are returning a 404 status.
 Here's Google's:
 ![Google's 404 page](../images/google-404.png)
-So,t a response can contain data even when the code is not 200.
+So, a response can contain data even when the code is not 200.
 
 
 ## HTTP is not like a phone call
@@ -149,7 +149,7 @@ So,t a response can contain data even when the code is not 200.
 - Bob can ask Alice "What kind and what size would you like?"
 - Alice can respond.
 - HTTP doesn't work like that.
-- With HTTP Alice would have to say "Hello, I want a 12" pepporoni pizza delivered to 123 Face St. please."
+- With HTTP Alice would have to say "Hello, I want a 12" pepperoni pizza delivered to 123 Face St. please."
 - Misunderstandings result in the server responding with an error, and hanging up.
 - Status codes indicate errors, amongst other things.
 
@@ -157,7 +157,7 @@ So,t a response can contain data even when the code is not 200.
 ## Sending data to the server
 - Often the client will want to send extra information to the server with the request.
 - Resources can be generated differently based on this extra data.
-- For instance Google (used to?) let users send their search terms in URL.
+- For instance, Google (used to?) let users send their search terms in URL.
 - Try opening `google.ie/` in your browser, and then open `google.ie/?q=gmit`.
 - Both times the requested resource is `/`, the root resource.
 - Another way to send extra data to the server is in the request body (the typical way for `POST` requests.)
@@ -166,10 +166,10 @@ So,t a response can contain data even when the code is not 200.
 
 
 ## URL encoding
-To send data from the client to the server using the URL, we have to encode the data, since certain characters in a URL have special meanings.
+To send data from the client to the server using the URL, we must encode the data, since certain characters in a URL have special meanings.
 
 - Any character can be encoded to `%XX` where `XX` is its ASCII value.
-- Characters for which we have to do this include =, &, %, and +.
+- Characters for which we must do this include =, &, %, and +.
 - All spaces must be changed to plusses.
 - Names and values must be in the format: `name1=value1\&name2=value2`.
 

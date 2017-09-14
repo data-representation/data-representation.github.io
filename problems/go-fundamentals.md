@@ -1,6 +1,6 @@
 # Problems - Go
 These are a few problems from around the internet to learn the fundamentals of [the Go programming language](https://golang.org/).
-Create a reposittory on [GitHub](https://github.com/) to store your answers, complete with a README.
+Create a repository on [GitHub](https://github.com/) to store your answers, complete with a README.
 
 
 ## 1. Kon'nichiwa, Sekai!
@@ -38,7 +38,7 @@ Find the sum of the digits in the number 100!
 
 Source: https://adriann.github.io/programming_problems.html
 
-Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if they input the same number multiple times consecutively.
+Write a guessing game where the user must guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. It counts only as one try if they input the same number multiple times consecutively.
 
 
 ## 6. Largest and smallest in list
