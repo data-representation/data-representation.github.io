@@ -86,7 +86,7 @@ msg:	db	"Hello, world!", 10
 - You can send the executable to your friend and they can run it, without having the source code or installing the compiler on their own machine - it just runs.
 - An interpreter, on the other hand, translates the programming code into machine instructions and runs them there and then.
 - It's like a compiler that immediately runs the executable and then throws it away.
-- If you want to send your friend your interpreter-style program, you send them the source code and they have to have the interpreter installed on their machine to run it.
+- If you want to send your friend your interpreter-style program, you send them the source code and they must have the interpreter installed on their machine to run it.
 - So, it sounds like compilers should naturally win over interpreter - right?
 - If you're writing software for non-programmers then usually the answer is yes.
 - A big snag with compilers is that they target certain operating systems and machines. If I compile a program for Windows then my friend on a Mac can't run the executable.
@@ -95,7 +95,7 @@ msg:	db	"Hello, world!", 10
 
 
 ## Learning a new programming language
-- The bad news is that programming languages go in and out fashion, and new programming languages come on the scene evrey couple of years. You'll have to learn to cope.
+- The bad news is that programming languages go in and out fashion, and new programming languages come on the scene every couple of years. You must learn to cope.
 - The good news is that the common programming languages that people learn are very similar. Once you learn one, the others are super-easy to learn.
 - (The superbad and supergood news is that functional programming is back with a bang, but we'll cover that next year.)
 - There are a lot of technical trade-offs between various programming languages, making certain ones better suited to certain tasks.
@@ -104,7 +104,7 @@ msg:	db	"Hello, world!", 10
 
 
 ## Common programming language essentials
-If you can do all of these in a (imperative) programming language then you know most of it:
+If you know how these work in a (imperative) programming language then you know most of the language:
 
 - Variables
 - Conditionals
@@ -113,7 +113,7 @@ If you can do all of these in a (imperative) programming language then you know 
 - Objects?
 - Comments
 
-In the next few sections we'll see how to do ths in Go.
+In the next few sections we'll see how they work in Go.
 
 
 ## Back to Go
@@ -125,7 +125,7 @@ Ken Thompson and Rob Pike worked at the famous Bell Labs.
 
 
 ## Go features
-- **Concurrency** is builtin with light-weight goroutines, channels.  
+- **Concurrency** is built-in with light-weight goroutines, channels.  
 - **Fast compiling** is a goal.
 - **Packages** are easily managed and dependencies are quickly resolved.
 - **Type inference** is available (sometimes).
@@ -265,7 +265,7 @@ https://tour.golang.org/basics/4
 
 
 ## Compiling Go code
-- Go is pretty opinionated about how you should write your code.
+- Go is quite opinionated about how you should write your code.
 - Luckily, Go provides a tool called `go` that manages lots of things for us.
 - For instance, we can use go to compile a program.
 
