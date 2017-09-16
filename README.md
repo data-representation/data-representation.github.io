@@ -66,3 +66,13 @@ No prior knowledge of Go is required.
 ## Resources
 
 1. [Example repository](https://github.com/data-representation/go-examples)
+
+## Past exam papers
+
+| Academic year  | Session | Format | Link                                    |
+|----------------|---------|--------|-----------------------------------------|
+| 2016/2017      | Winter  | PDF    | [Click here](resources/1617-winter.pdf) |
+| 2016/2017      | Autumn  | PDF    | [Click here](resources/1617-autumn.pdf) |
+| 2015/2016      | Winter  | PDF    | [Click here](resources/1617-winter.pdf) |
+| 2015/2016      | Autumn  | PDF    | [Click here](resources/1617-autumn.pdf) |
+| 2015/2016      | Sample  | PDF    | [Click here](resources/1617-sample.pdf) |
