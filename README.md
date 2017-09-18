@@ -9,6 +9,10 @@ ian.mcloughlin@gmit.ie
 
 [ianmcloughlin.github.io](https://ianmcloughlin.github.io)
 
+## FAQ
+Please see [here](notes/faq.md) for a list of frequently asked questions.
+
+
 ## Learning outcomes
 On completion of this module the learner will be able to:
 
