@@ -1,7 +1,7 @@
 # Data Representation and Querying
 
 This is the landing page of the module Data Representation and Querying at [GMIT](http://www.gmit.ie).
-The module is given to third year students of the [B.Sc. in Software Development](https://www.gmit.ie/software-development/bachelor-science-computing-software-development).
+The module is given to third-year students of the [B.Sc. in Software Development](https://www.gmit.ie/software-development/bachelor-science-computing-software-development).
 
 
 ## Notes
@@ -34,10 +34,10 @@ The module is given to third year students of the [B.Sc. in Software Development
 | Academic year  | Session | Format | Link                                    |
 |----------------|---------|--------|-----------------------------------------|
 | 2016/2017      | Winter  | PDF    | [Click here](resources/1617-data-winter-exam.pdf?raw=true) |
-| 2016/2017      | Autumn  | PDF    | [Click here](resources/1617-data-autumn-exam.pdf) |
-| 2015/2016      | Winter  | PDF    | [Click here](resources/1516-data-winter-exam.pdf) |
-| 2015/2016      | Autumn  | PDF    | [Click here](resources/1516-data-autumn-exam.pdf) |
-| 2015/2016      | Sample  | PDF    | [Click here](resources/1516-data-sample-exam.pdf) |
+| 2016/2017      | Autumn  | PDF    | [Click here](resources/1617-data-autumn-exam.pdf?raw=true) |
+| 2015/2016      | Winter  | PDF    | [Click here](resources/1516-data-winter-exam.pdf?raw=true) |
+| 2015/2016      | Autumn  | PDF    | [Click here](resources/1516-data-autumn-exam.pdf?raw=true) |
+| 2015/2016      | Sample  | PDF    | [Click here](resources/1516-data-sample-exam.pdf?raw=true) |
 
 
 ## Module description
