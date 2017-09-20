@@ -7,7 +7,8 @@ The module is given to third-year students of the [B.Sc. in Software Development
 ## Notes
 
 1. [Learning the fundamentals of Go](notes/go.md)
-2. [The HyperText Transfer Protocol (HTTP)](notes/http.md)
+2. [Using Git](notes/git.md)
+3. [The HyperText Transfer Protocol (HTTP)](notes/http.md)
 
 
 ## Problem sheets
