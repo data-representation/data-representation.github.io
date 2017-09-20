@@ -1,12 +1,7 @@
 # Data Representation and Querying
 
 This is the landing page of the module Data Representation and Querying at [GMIT](http://www.gmit.ie).
-THe module is given to third year students of the [B.Sc. in Software Development](https://www.gmit.ie/software-development/bachelor-science-computing-software-development).
-
-
-## FAQ
-
-Please see [here](notes/faq.md) for a list of frequently asked questions.
+The module is given to third year students of the [B.Sc. in Software Development](https://www.gmit.ie/software-development/bachelor-science-computing-software-development).
 
 
 ## Notes
@@ -22,6 +17,7 @@ Please see [here](notes/faq.md) for a list of frequently asked questions.
 
 ## Resources
 
+1. [A list of Frequently Asked Questions (FAQ)](notes/faq.md)
 1. [Example repository](https://github.com/data-representation/go-examples)
 
 
