@@ -20,6 +20,7 @@ The module is given to third-year students of the [B.Sc. in Software Development
 
 1. [A list of Frequently Asked Questions (FAQ)](notes/faq.md)
 1. [Example repository](https://github.com/data-representation/go-examples)
+1. [How to Write Go Code (golang.org)](https://golang.org/doc/code.html)
 
 
 ## Assessment
