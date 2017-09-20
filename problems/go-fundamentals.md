@@ -5,7 +5,8 @@ Create a repository on [GitHub](https://github.com/) to store your answers, comp
 
 ## 1. Kon'nichiwa, Sekai!
 
-Source: https://tour.golang.org/welcome/1
+Source:
+https://tour.golang.org/welcome/1
 
 Write a program that prints "Hello, world!" in Japanese (using Japanese characters) to the screen.
 
