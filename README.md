@@ -33,7 +33,7 @@ The module is given to third year students of the [B.Sc. in Software Development
 
 | Academic year  | Session | Format | Link                                    |
 |----------------|---------|--------|-----------------------------------------|
-| 2016/2017      | Winter  | PDF    | [Click here](resources/1617-data-winter-exam.pdf) |
+| 2016/2017      | Winter  | PDF    | [Click here](resources/1617-data-winter-exam.pdf?raw=true) |
 | 2016/2017      | Autumn  | PDF    | [Click here](resources/1617-data-autumn-exam.pdf) |
 | 2015/2016      | Winter  | PDF    | [Click here](resources/1516-data-winter-exam.pdf) |
 | 2015/2016      | Autumn  | PDF    | [Click here](resources/1516-data-autumn-exam.pdf) |
