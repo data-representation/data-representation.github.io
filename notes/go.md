@@ -137,7 +137,7 @@ Ken Thompson and Rob Pike worked at the famous Bell Labs.
 ## Hello, world!
 Here's the usual program in G.
 ```go
-// https://gobyexample.com/hello-world
+// From: https://gobyexample.com/hello-world
 
 package main
 
@@ -156,8 +156,11 @@ func main() {
 - Strings are enclosed in double quotes.
 - In the next few sections we'll go through the essentials.
 
+
 ## Variables
 ```go
+// From: https://play.golang.org/p/Zv45CSMaiD
+
 package main
 
 import "fmt"
@@ -188,11 +191,12 @@ func main() {
     fmt.Println(f)
 }
 ```
-https://play.golang.org/p/Zv45CSMaiD
 
 
 ## if and else
 ```go
+// From: https://play.golang.org/p/g-aqMz0Ivf
+
 package main
 
 import "fmt"
@@ -222,10 +226,11 @@ func main() {
 }
 ```
 
-https://play.golang.org/p/g-aqMz0Ivf
 
 ## for loops
 ```go
+// From: https://tour.golang.org/flowcontrol/1
+
 package main
 
 import "fmt"
@@ -240,11 +245,11 @@ func main() {
 }
 ```
 
-https://tour.golang.org/flowcontrol/1
-
 
 ## Functions
 ```go
+// From: https://tour.golang.org/basics/4
+
 package main
 
 import "fmt"
@@ -260,8 +265,6 @@ func main() {
   fmt.Println(add(42, 13))
 }
 ```
-
-https://tour.golang.org/basics/4
 
 
 ## Compiling Go code

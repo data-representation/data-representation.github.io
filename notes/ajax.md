@@ -17,7 +17,6 @@ Its main feature for end users is that it removes the need for page reloads when
 - You create an instance of this object, and set some properties and call some methods to make and deal with the HTTP request you want to make.
 
 ```javascript
-// From: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/onreadystatechange
 var xhr = new XMLHttpRequest();
 
 xhr.open("GET", "https://developer.mozilla.org/", true);
@@ -28,6 +27,7 @@ xhr.onreadystatechange = function () {
 };
 xhr.send();
 ``` 
+From: [https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/onreadystatechange](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/onreadystatechange)
 
 - The bells and whistles are generally not used. Libraries like [jQuery](http://jquery.com/) provide easy-to-use wrapper functions.
 
