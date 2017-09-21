@@ -4,6 +4,12 @@ This is the landing page of the module Data Representation and Querying at [GMIT
 The module is given to third-year students of the [B.Sc. in Software Development](https://www.gmit.ie/software-development/bachelor-science-computing-software-development).
 
 
+## Lecturer
+
+The lecturer of the module is [Ian McLoughlin (ianmcloughlin.github.io)](https://ianmcloughlin.github.io).
+You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
+
+
 ## Notes
 
 1. [Learning the fundamentals of Go](notes/go.md)
@@ -11,7 +17,7 @@ The module is given to third-year students of the [B.Sc. in Software Development
 3. [The HyperText Transfer Protocol (HTTP)](notes/http.md)
 
 
-## Problem sheets
+## Problem sets
 
 1. [Go fundamentals](problems/go-fundamentals.md)
 
@@ -31,6 +37,11 @@ The module is given to third-year students of the [B.Sc. in Software Development
 | End of Semester Examination  | 50%    |
 
 
+## Language
+For this module we will be using [the Go programming language](https://golang.org/).
+No prior knowledge of Go is required.
+
+
 ## Past exam papers
 
 | Academic year  | Session | Format | Link                                    |
@@ -46,12 +57,6 @@ The module is given to third-year students of the [B.Sc. in Software Development
 
 A module in which students will investigate and operate the protocols, standards and architectures used in representing and querying the data that exists across the internet.
 Students will also gain practical experience in developing applications that interact with such data.
-
-
-## Lecturer
-
-The lecturer of the module is [Ian McLoughlin (ianmcloughlin.github.io)](https://ianmcloughlin.github.io).
-You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 
 
 ## Learning outcomes
@@ -85,7 +90,3 @@ On completion of this module the learner will be able to:
 - Asynchronous JavaScript And Xml (AJAX)
 - Sessions
 
-
-## Language
-For this module we will be using [the Go programming language](https://golang.org/).
-No prior knowledge of Go is required.

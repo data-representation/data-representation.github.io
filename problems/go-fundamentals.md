@@ -1,4 +1,4 @@
-# Problems - Go
+# Problem set: Go
 These are a few problems from around the internet to learn the fundamentals of [the Go programming language](https://golang.org/).
 Create a repository on [GitHub](https://github.com/) to store your answers, complete with a README.
 
