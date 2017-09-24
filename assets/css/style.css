@@ -1,0 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h4.sitetitle::before {
+  content: "⌂";
+}
