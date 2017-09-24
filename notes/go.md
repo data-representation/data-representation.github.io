@@ -268,11 +268,11 @@ func main() {
 
 
 ## Compiling Go code
-- Go is quite opinionated about how you should write your code.
-- Luckily, Go provides a tool called `go` that manages lots of things for us.
-- For instance, we can use go to compile a program.
+- Upon installing Go, a command line tool called `go` is available to manage the compilation of our code.
+- An example of compiling Go code is provided in the images below.
+- Go is quite opinionated about how code should be formatted, and provides the `go fmt` command to format code in a standard way.
+
 
 ![Go in Notepad++](../images/go-npp.png)
 
 ![Go in Notepad++](../images/go-build.png)
-
