@@ -1,8 +1,7 @@
 # Data Representation and Querying
 
-This is the landing page of the module Data Representation and Querying at [GMIT](http://www.gmit.ie).
-The module is given to third-year students of the [B.Sc. in Software Development](https://www.gmit.ie/software-development/bachelor-science-computing-software-development).
-The lecturer of the module is [Ian McLoughlin (ianmcloughlin.github.io)](https://ianmcloughlin.github.io).
+This is the course page for the module Data Representation and Querying given to students of the [B.Sc. in Software Development](https://www.gmit.ie/software-development/bachelor-science-computing-software-development) at [GMIT](http://www.gmit.ie).
+The lecturer is [Ian McLoughlin (ianmcloughlin.github.io)](https://ianmcloughlin.github.io).
 You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 
 
@@ -20,12 +19,20 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 
 ## Resources
 
-1. [A list of Frequently Asked Questions (FAQ)](notes/faq.md)
-1. [Example repository](https://github.com/data-representation/go-examples)
+1. [Frequently Asked Questions (FAQ)](notes/faq.md)
+1. [Example problem set solution repository](https://github.com/data-representation/go-examples)
 1. [How to Write Go Code (golang.org)](https://golang.org/doc/code.html)
 
 
 ## Assessment
+The module will be assessed through a combination of continuous assessment and a final exam.
+The main continuous assessment element will be a project.
+This will, by default, be marked out of 50%.
+
+However, a series of optional problem sets will be provided and a full set of solutions to these will be marked out of 20%.
+Should the mark achieved by adding this to the project mark scaled to 30% be higher than the mark achieved in the project alone, the higher mark will be given.
+Thus, the student can only benefit by completing the problem sets, which should be done as part of the student's study in any case.
+
 
 | Type                         | Weight |
 | -----------------------------|--------|
@@ -34,7 +41,7 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 
 
 ## Language
-For this module we will be using [the Go programming language](https://golang.org/).
+For this module we will be using the [Go programming language](https://golang.org/).
 No prior knowledge of Go is required.
 
 
