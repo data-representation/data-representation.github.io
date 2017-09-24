@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
-h4.sitetitle::before {
-  content: "⌂";
+h4.sitetitle {
+  min-wdith: 100%;
+}
+
+a.ianmcl {
+ float: right; 
 }
