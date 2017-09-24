@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 
 h4.sitetitle {
-  min-wdith: 100%;
+  min-width: 100%;
+  width: 100%;
 }
 
 a.ianmcl {
