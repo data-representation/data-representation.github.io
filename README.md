@@ -24,6 +24,14 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 1. [How to Write Go Code (golang.org)](https://golang.org/doc/code.html)
 
 
+## Submissions
+Use the following links to submit the repositories containing your solutions to the assessment materials for this course.
+Note that you can submit these links at any time before the relevant deadlines.
+The last commit made to a given repository before the deadline will be taken as your submission.
+Note you will be asked to enter your GMIT account details to access the submission forms if you are not already logged in.
+
+1. [Submit Go fundamentals problem set repository](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUQ0VJSTNKVDBGME9GWUtQRVc5NEVUMzkzRC4u)
+
 ## Assessment
 The module will be assessed through a combination of continuous assessment and a final exam.
 The main continuous assessment element will be a project.
