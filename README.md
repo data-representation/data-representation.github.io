@@ -2,10 +2,6 @@
 
 This is the landing page of the module Data Representation and Querying at [GMIT](http://www.gmit.ie).
 The module is given to third-year students of the [B.Sc. in Software Development](https://www.gmit.ie/software-development/bachelor-science-computing-software-development).
-
-
-## Lecturer
-
 The lecturer of the module is [Ian McLoughlin (ianmcloughlin.github.io)](https://ianmcloughlin.github.io).
 You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 
