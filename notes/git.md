@@ -81,7 +81,7 @@ $ git commit -m "Re-organised the repo."
  create mode 100644 my-new-file.go
 ```
 
-At any point, we can look through the history of commits and see all of the changes we've made over the repository's history.
+At any point, we can look through the history of commits and see all the changes we've made over the repository's history.
 We can even `checkout` the previous versions of the repository in situ, and perhaps create a new, different [branch](https://www.atlassian.com/git/tutorials/using-branches) in the history of the project.
 
 ![The history timeline of a repository](../images/repo-history.png)
