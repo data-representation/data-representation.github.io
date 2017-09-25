@@ -26,7 +26,7 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 
 ## Submit CA
 Use the links in the table below to submit your solutions to the assessment materials before the deadlines displayed.
-Each submission is just a repository link, which you can submit at any time before the deadline.
+Each submission is a repository link, which you can submit at any time before the deadline.
 The last commit made to the repository before the deadline will be taken as the submission.
 You will be asked to enter your GMIT account details to access the submission forms if you are not already logged in.
 
