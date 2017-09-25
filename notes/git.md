@@ -52,7 +52,7 @@ Effectively, `.git` is Git's working memory.
 ## Commits
 
 The most fundamental concept in Git is a *commit*.
-A commit is similar to a saved game in a video game.
+A commit is like a saved game in a video game.
 You can generally think of a commit as a saved version of the repository files and folders.
 
 The truth is a little more complex than that, however.
@@ -68,7 +68,7 @@ These four changes can be made using the `git add`, `git rm` and `git mv` comman
 We call the construction of such a package *staging*.
 We say that we added `my-new-file.go` to the staging area, for instance.
 
-Once we are happy with all of the staged changes, we create a new commit.
+Once we are happy with the staged changes, we create a new commit.
 
 ```bash
 C:\Users\mclou\repos\myrepo (master)
@@ -81,15 +81,15 @@ $ git commit -m "Re-organised the repo."
  create mode 100644 my-new-file.go
 ```
 
-At any point, we can look through the past history of commits and see all of the changes we've made over the repository's history.
+At any point, we can look through the history of commits and see all of the changes we've made over the repository's history.
 We can even `checkout` the previous versions of the repository in situ, and perhaps create a new, different [branch](https://www.atlassian.com/git/tutorials/using-branches) in the history of the project.
 
 ![The history timeline of a repository](../images/repo-history.png)
 
 ## Remotes
 
-So far we have a way of keeping track of the changes to our repository but have not solved either of the two problems previously mentioned - backing up our repository and collaborating with others.
-Most developers use [GitHub](http://www.github.com) to solve both of these problems.
+So far, we have a way of keeping track of the changes to our repository but have not solved either of the two problems previously mentioned - backing up our repository and collaborating with others.
+Most developers use [GitHub](http://www.github.com) to solve both problems.
 
 Git allows us to create many copies of the same repository on many different machines.
 It provides mechanisms to keep those copies synchronised, or even partially synchronised.
