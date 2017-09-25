@@ -24,28 +24,33 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 1. [How to Write Go Code (golang.org)](https://golang.org/doc/code.html)
 
 
-## Submissions
-Use the following links to submit the repositories containing your solutions to the assessment materials for this course.
-Note that you can submit these links at any time before the relevant deadlines.
-The last commit made to a given repository before the deadline will be taken as your submission.
-Note you will be asked to enter your GMIT account details to access the submission forms if you are not already logged in.
+## Submit CA
+Use the links in the table below to submit the your solutions to the assessment materials by the deadlines displayed.
+Each submission is a repository link, which you can submit them at any time before the deadline.
+The last commit made to the repository before the deadline will be taken as the submission.
+You will be asked to enter your GMIT account details to access the submission forms if you are not already logged in.
 
-1. [Submit Go fundamentals problem set repository](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUQ0VJSTNKVDBGME9GWUtQRVc5NEVUMzkzRC4u)
+| Submission link | Kind | Deadline |
+| ----------------|------|----------|
+| [Submit Go fundamentals problem set repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUQ0VJSTNKVDBGME9GWUtQRVc5NEVUMzkzRC4u) | Optional | 6th October 2017, 24:00 |
+| Problem Sheet TBC | Optional | TBC |
+| Problem Sheet TBC | Optional | TBC |
+| Project TBC       | Required | TBC |
 
-## Assessment
+
+## Assessment information
 The module will be assessed through a combination of continuous assessment and a final exam.
 The main continuous assessment element will be a project.
 This will, by default, be marked out of 50%.
-
-However, a series of optional problem sets will be provided and a full set of solutions to these will be marked out of 20%.
-Should the mark achieved by adding this to the project mark scaled to 30% be higher than the mark achieved in the project alone, the higher mark will be given.
-Thus, the student can only benefit by completing the problem sets, which should be done as part of the student's study in any case.
-
 
 | Type                         | Weight |
 | -----------------------------|--------|
 | Continuous Assessment        | 50%    |
 | End of Semester Examination  | 50%    |
+
+However, a series of optional problem sets will be provided and a full set of solutions to these will be marked out of 20%.
+Should the mark achieved by adding this to the project mark scaled to 30% be higher than the mark achieved in the project alone, the higher mark will be given.
+Thus, the student can only benefit by completing the problem sets, which should be done as part of the student's study in any case.
 
 
 ## Language
