@@ -87,7 +87,7 @@ After each iteration the value of `z` is replaced with that of `z_next`.
 
 Run a few tests to determine how close you are to the [math.Sqrt](https://golang.org/pkg/math/#Sqrt) value?
 
-Hint: to declare and initialize a floating point value, give it floating point syntax or use a conversion:
+Hint: to declare and initialize a floating point value, give it floating-point syntax or use a conversion:
 
 ```go
 z := float64(1)
