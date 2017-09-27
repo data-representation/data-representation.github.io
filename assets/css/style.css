@@ -2,6 +2,3 @@
 ---
 
 @import "{{ site.theme }}";
-img {
-  border: 3px solid rgb(150, 100, 100);
-}
