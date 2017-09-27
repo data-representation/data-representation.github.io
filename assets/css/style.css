@@ -4,5 +4,5 @@
 @import "{{ site.theme }}";
 
 img {
-  box-shadow: 4px 4px rgb(50, 50, 50);
+  border: rgb(50, 50, 50) solid 1px;
 }
