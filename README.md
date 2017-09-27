@@ -17,14 +17,8 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 1. [Go fundamentals](problems/go-fundamentals.md)
 
 
-## Resources
-
-1. [Frequently Asked Questions (FAQ)](notes/faq.md)
-1. [Example problem set solution repository](https://github.com/data-representation/go-examples)
-1. [How to Write Go Code (golang.org)](https://golang.org/doc/code.html)
-
-
 ## Submit CA
+
 Use the links in the table below to submit your solutions to the assessment materials before the deadlines displayed.
 Each submission is a repository link, which you can submit at any time before the deadline.
 The last commit made to the repository before the deadline will be taken as the submission.
@@ -36,6 +30,27 @@ You will be asked to enter your GMIT account details to access the submission fo
 | Problem Sheet TBC | Optional | TBC |
 | Problem Sheet TBC | Optional | TBC |
 | Project TBC       | Required | TBC |
+
+
+## Resources
+
+#### Module specific
+1. [Frequently Asked Questions (FAQ)](notes/faq.md)
+1. [Example problem set solution repository](https://github.com/data-representation/go-examples)
+1. [Bonus problems](problems/bonus.md)
+
+#### HTTP
+1. [How Browsers Work: Behind the scenes of modern web browsers by Tali Garsiel and Paul Irish](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+1. [Using curl to automate HTTP jobs](https://curl.haxx.se/docs/httpscripting.html)
+1. [Stack Overflow: The Architecture - 2016 Edition by Nick Craver](https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)
+
+#### Go
+1. [How to Write Go Code (golang.org)](https://golang.org/doc/code.html)
+1. [Video about using GOPATH](https://www.youtube.com/watch?v=XCsL89YtqCs)
+
+#### Git
+1. [An in-depth post about git: Git from the inside out by Mary Rose Cook](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
+1. [Atlassian: Getting Git Right](https://www.atlassian.com/git)
 
 
 ## Assessment information
