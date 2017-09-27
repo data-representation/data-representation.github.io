@@ -9,7 +9,8 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 
 1. [Learning the fundamentals of Go](notes/go.md)
 2. [Using Git](notes/git.md)
-3. [The HyperText Transfer Protocol (HTTP)](notes/http.md)
+3. [How browsers work](notes/browsers.md)
+4. [The HyperText Transfer Protocol (HTTP)](notes/http.md)
 
 
 ## Problem sets
