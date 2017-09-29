@@ -26,14 +26,10 @@ How did all of that happen?
 1. The browser sent a **request** to the server located at `data-representation.github.io` using the `HTTP` protocol on port `80` using the `GET` method, requesting the *resource* named `/simple-website/index.html`.
 2. The server sent a **response** to the browser, which indicated that it had successfully located that resource with status code `200`, and the response contained the resource itself which was in the form of HTML.
 3. The browser parsed the HTML, and figured out that it needed to also download an image file called `img/logo.png`, a CSS file called `css/bootstrap.min.css`, and three JavaScript files called `js/jquery-3.2.1.slim.min.js`, `js/popper.min.js`, and `js/bootstrap.min.js`.
-
   ![Simple webpage source](../images/simple-webpage-source.png)
-
 4. The HTML did not tell the browser on which server to find these files, so it assumed it was the same one that `index.html` came from. For instance, it figured out that `img/logo.png` was really located at `http://data-representation.github.io/img/logo.png`.
 5. The browser sent out five separate HTTP `GET` requests for each of those files, and parsed them.
-
   ![Chrome loading page](../images/simple-webpage-network-chrome.png)
-
 6. As quickly as it could, it rendered the result of all six files in the browser window. Whenever possible, it did things in parallel, and without waiting for all the resources to download fully.
 
 #### Clicking links, back buttons, and bookmarks
