@@ -41,6 +41,7 @@ You will be asked to enter your GMIT account details to access the submission fo
 1. [Bonus problems](problems/bonus.md)
 
 #### HTTP
+1. [curl homepage](https://curl.haxx.se/)
 1. [How Browsers Work: Behind the scenes of modern web browsers by Tali Garsiel and Paul Irish](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 1. [Using curl to automate HTTP jobs](https://curl.haxx.se/docs/httpscripting.html)
 1. [Stack Overflow: The Architecture - 2016 Edition by Nick Craver](https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)
