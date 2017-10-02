@@ -42,6 +42,7 @@ You will be asked to enter your GMIT account details to access the submission fo
 
 #### HTTP
 1. [Download curl for Windows 64-bit](resources/curl.zip) - if you're using cmder, unzip these three files in cmder's bin folder.
+1. [15 Practical Linux cURL Command Examples](http://www.thegeekstuff.com/2012/04/curl-examples/)
 1. [curl homepage](https://curl.haxx.se/)
 1. [How Browsers Work: Behind the scenes of modern web browsers by Tali Garsiel and Paul Irish](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 1. [Using curl to automate HTTP jobs](https://curl.haxx.se/docs/httpscripting.html)
