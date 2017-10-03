@@ -5,7 +5,7 @@ There are a few tools that help us to pull the transactions into view, so that t
 
 
 ## curl
-curl is a command line tool (and a software library) for sending and recieving data using vaious protocols.
+curl is a command line tool (and a software library) for sending and receiving data using various protocols.
 We'll use it to make HTTP requests and investigate them.
 
 
@@ -16,7 +16,7 @@ For Windows (and other platforms), many sites online provide pre-compiled binari
 You can download one of these using the [curl download wizard](https://curl.haxx.se/dlwiz/).
 
 I have also made curl available on the course webpage [here](../resources/curl.zip).
-If you are using [cmder](http://cmder.net/) you can place the three files in the zip directly into the bin subfolder in cmder.
+If you are using [cmder](http://cmder.net/) you can place the three files in the zip directly into the bin sub-folder in cmder.
 Then you will be able to run curl in cmder.
 
 
@@ -270,5 +270,113 @@ $ curl --verbose https://data-representation.github.io/simple-website/index.html
 </html>* Connection #0 to host data-representation.github.io left intact
 ```
 
-The lines beginning with the character right angle bracket are part of the request, and those with the left angle bracket are part of the reponse.
-curl also displays extra information on the lines beginning with astesisks.
+The lines beginning with the character right angle bracket are part of the request, and those with the left angle bracket are part of the response.
+curl also displays extra information on the lines beginning with asterisks.
+
+
+### Redirects
+Sometimes when you send a HTTP request you are redirected to another URL, with a status code of the form `3XX`, e.g. `302`.
+Typically, your web browser will just perform the redirect without telling you, but it'll be evident in the developer tools.
+For instance, `google.com` will redirect you to `google.ie` in Ireland.
+We can see two redirects happening in Chrome when we visit `http://www.google.com`.
+
+![Google.com redirects](../images/google-redirects.png)
+
+The first is a redirect with status code `307` and status message of `Internal Redirect`.
+It tells Chrome to redirect to `https://www.google.com`, to use `HTTPS` instead of `HTTP`.
+Upon requesting that URL in turn we are redirected to `https://www.google.ie`.
+
+Interestingly, curl is not redirect to the `HTTPS` version.
+This shows you that Google responds differently depending on which HTTP client you use.
+
+```sh
+$ curl --verbose http://www.google.com
+* Rebuilt URL to: http://www.google.com/
+* timeout on name lookup is not supported
+*   Trying 216.58.198.68...
+* TCP_NODELAY set
+* Connected to www.google.com (216.58.198.68) port 80 (#0)
+> GET / HTTP/1.1
+> Host: www.google.com
+> User-Agent: curl/7.53.1
+> Accept: */*
+>
+< HTTP/1.1 302 Found
+< Location: http://www.google.ie/?gws_rd=cr&dcr=0&ei=b-DTWb2CBIGcgAaLha34Cg
+< Cache-Control: private
+< Content-Type: text/html; charset=UTF-8
+< P3P: CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+< Date: Tue, 03 Oct 2017 19:09:35 GMT
+< Server: gws
+< Content-Length: 268
+< X-XSS-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: NID=113=FaDUOFPTbfC8cCW2Edu-szryhUoangJvipTdF8jYbK7xDU-ffcI5dTjauD_mIIo2_i3SATYnxfjaeg3no8Py1I_dYNN1rtl-FqIifxZsRsLaQp_g18O9uADC8-RWutII; expires=Wed, 04-Apr-2018 19:09:35 GMT; path=/; domain=.google.com; HttpOnly
+<
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>302 Moved</TITLE></HEAD><BODY>
+<H1>302 Moved</H1>
+The document has moved
+<A HREF="http://www.google.ie/?gws_rd=cr&amp;dcr=0&amp;ei=b-DTWb2CBIGcgAaLha34Cg">here</A>.
+</BODY></HTML>
+* Connection #0 to host www.google.com left intact
+```
+
+Note that curl does not automatically follow the redirect.
+We can use the `-L` switch to make it do that.
+
+```sh
+$ curl --verbose http://www.google.com -L
+* Rebuilt URL to: http://www.google.com/
+* timeout on name lookup is not supported
+*   Trying 216.58.198.68...
+* TCP_NODELAY set
+* Connected to www.google.com (216.58.198.68) port 80 (#0)
+> GET / HTTP/1.1
+> Host: www.google.com
+> User-Agent: curl/7.53.1
+> Accept: */*
+>
+< HTTP/1.1 302 Found
+< Location: http://www.google.ie/?gws_rd=cr&dcr=0&ei=4-PTWf-EKojFgAbjw7n4AQ
+< Cache-Control: private
+< Content-Type: text/html; charset=UTF-8
+< P3P: CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+< Date: Tue, 03 Oct 2017 19:24:19 GMT
+< Server: gws
+< Content-Length: 268
+< X-XSS-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: NID=113=IsUfHevVy1pvmdbpncWrhrgheCTyvbbljnoG1t2ihpsmu7CFzKP8sEOp5XQ6qYLqwVXxV87BQgsNIU8uGcKe6Hn-5phi3uF8GpId_ZHMDBHOvtLgHf3ph-60Wd3danQO; expires=Wed, 04-Apr-2018 19:24:19 GMT; path=/; domain=.google.com; HttpOnly
+<
+* Ignoring the response-body
+* Connection #0 to host www.google.com left intact
+* Issue another request to this URL: 'http://www.google.ie/?gws_rd=cr&dcr=0&ei=4-PTWf-EKojFgAbjw7n4AQ'
+* timeout on name lookup is not supported
+*   Trying 209.85.202.94...
+* TCP_NODELAY set
+* Connected to www.google.ie (209.85.202.94) port 80 (#1)
+> GET /?gws_rd=cr&dcr=0&ei=4-PTWf-EKojFgAbjw7n4AQ HTTP/1.1
+> Host: www.google.ie
+> User-Agent: curl/7.53.1
+> Accept: */*
+>
+< HTTP/1.1 200 OK
+< Date: Tue, 03 Oct 2017 19:24:20 GMT
+< Expires: -1
+< Cache-Control: private, max-age=0
+< Content-Type: text/html; charset=ISO-8859-1
+< P3P: CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+< Server: gws
+< X-XSS-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: NID=113=GTBWTB-plXK1NGS9I7-G2hdF5zlPHgFmEj2NmOXTYg5g6IM23sJIt3Sy8DVJbYbYvklDGFUT0u9GMjMDcsd0wu_5GcKlNSaLwpqt9lZNXpoZcOQjtR8vNvexTc_0M9FZ; expires=Wed, 04-Apr-2018 19:24:20 GMT; path=/; domain=.google.ie; HttpOnly
+< Accept-Ranges: none
+< Vary: Accept-Encoding
+< Transfer-Encoding: chunked
+<
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en-IE"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+...
+</script></div></body></html>* Connection #1 to host www.google.ie left intact
+```
+
