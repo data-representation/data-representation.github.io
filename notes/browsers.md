@@ -39,8 +39,8 @@ When a user clicks a link, they get the same result as if they had typed the lin
 
 The same applies for your browser's back button, which is just a stack of URLs previously visited.
 When the back button is clicked, it's as if the user just typed the previous page's URL in the location bar.
-The only caveat here is that your browser will often try remember anything you have done on the previous page as a convenience to you, such as the point to which you had scrolled in it.
-If you type the URL in the location bar it tpyically won't.
+The only caveat here is that your browser will often try to remember anything you have done on the previous page as a convenience to you, such as the point to which you had scrolled in it.
+If you type the URL in the location bar it typically won't.
 
 Likewise, pressing the refresh button is just a convenient way of re-typing the URL in the location bar. 
 Likewise, bookmarks are just links that your browser has stored that you can click on instead of typing them into the location bar.
