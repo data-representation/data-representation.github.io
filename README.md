@@ -39,15 +39,20 @@ You will be asked to enter your GMIT account details to access the submission fo
 #### Module specific
 1. [Frequently Asked Questions (FAQ)](notes/faq.md)
 1. [Example problem set solution repository](https://github.com/data-representation/go-examples)
+1. [Simple static website example repository](https://github.com/data-representation/simple-website)
+1. [Simple static website](https://data-representation.github.io/simple-website/)
+1. [Go HTTP Echo example repository](https://github.com/data-representation/go-echo)
+1. [Go and AJAX example repository](https://github.com/data-representation/go-ajax)
 1. [Bonus problems](problems/bonus.md)
 
 #### HTTP
-1. [Download curl for Windows 64-bit](resources/curl.zip) - if you're using cmder, unzip these three files in cmder's bin folder.
-1. [15 Practical Linux cURL Command Examples](http://www.thegeekstuff.com/2012/04/curl-examples/)
 1. [curl homepage](https://curl.haxx.se/)
-1. [How Browsers Work: Behind the scenes of modern web browsers by Tali Garsiel and Paul Irish](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 1. [Using curl to automate HTTP jobs](https://curl.haxx.se/docs/httpscripting.html)
+1. [Download curl for Windows 64-bit](resources/curl.zip) - if you're using cmder, unzip these three files in cmder's bin folder.
+1. [How Browsers Work: Behind the scenes of modern web browsers by Tali Garsiel and Paul Irish](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 1. [Stack Overflow: The Architecture - 2016 Edition by Nick Craver](https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)
+1. [15 Practical Linux cURL Command Examples](http://www.thegeekstuff.com/2012/04/curl-examples/)
+
 
 #### Go
 1. [How to Write Go Code (golang.org)](https://golang.org/doc/code.html)
