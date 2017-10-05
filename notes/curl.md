@@ -1,11 +1,8 @@
-# curl and postman
+# curl
 Most HTTP transactions happen in the background, hidden from the user.
 This is a good thing for the non-technical user, but presents a challenge for web application developers.
-There are a few tools that help us to pull the transactions into view, so that they can be investigated and debugged.
-
-
-## curl
-curl is a command line tool (and a software library) for sending and receiving data using various protocols.
+curl is a tool that helps us to pull the transactions into view, so that they can be investigated and debugged.
+It's a command line tool (and a software library) for sending and receiving data using various protocols.
 We'll use it to make HTTP requests and investigate them.
 
 
@@ -380,3 +377,16 @@ $ curl --verbose http://www.google.com -L
 </script></div></body></html>* Connection #1 to host www.google.ie left intact
 ```
 
+### Changing the method
+The `-X` switch lets us change the HTTP method of the request.
+
+```sh
+$ curl -X "POST" http://localhost:8080
+```
+
+### Sending data
+The `-d` switch allows us to send data in the request body.
+
+```sh
+$ curl -X "POST" http://localhost:8080 -d "Hello, world!"
+```
