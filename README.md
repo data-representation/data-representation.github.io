@@ -57,6 +57,8 @@ You will be asked to enter your GMIT account details to access the submission fo
 #### Go
 1. [How to Write Go Code (golang.org)](https://golang.org/doc/code.html)
 1. [Video about using GOPATH](https://www.youtube.com/watch?v=XCsL89YtqCs)
+1. [Go http package ResponseWriter documentation (see about headers)](https://golang.org/pkg/net/http/#ResponseWriter)
+1. [MIME Sniffing Living Standard (mimesniff.spec.whatwg.org)](https://mimesniff.spec.whatwg.org/)
 
 #### Git
 1. [An in-depth post about git: Git from the inside out by Mary Rose Cook](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
