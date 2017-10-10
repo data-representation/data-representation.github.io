@@ -12,26 +12,32 @@ Create a web application in Go that responds with the text "Hello, world!".
 This should be the response (body) no matter what the request is.
 Explain in your README how to examine the response, including the headers, using curl.
 
+## 2. Make the text a H1
 
-## 2. Current time
+Change your web application to repsond with "<h1>Hello, world!</h1>".
+Test your application, making sure that the HTML is rendered by your browser.
+If it isn't, fix it.
+
+
+## 3. Current time
 
 Create a new route in your application at "/time".
 It should respond with the current date and time.
 
 
-## 3. Set a cookie
+## 4. Set a cookie
 
-Create a new route at "/cookie".
-Have it respond with the following: "<h1>I have seen you 1 times before</h1>".
-Set a cookie called "Seen" in every response and set it to the value 1.
+When sending the time as a response, set a cookie called `last`and set its value to the current date and time also.
+Each time you send the response, check if the cookie is set.
+If the cookie is set, add a line to the response body saying "It is <time delta> hours since you last checked.", replacing "<time delta>" with the number of hours between the cookie time and the current time.
 
 
-## 4. Update the cookie
+## 5. Add an index.html
 
-When a request comes into "/cookie", check to see if the "Seen" cookie exists.
-If it doesn't, set the cookie to 1 (as above) and respond with "<h1>We've never met</h1>".
-Otherwise:
+Add an index.html file to your web application, and have it served as the root (/) resource instead of "Hello, world!"
+You can use the [Bootstrap 4 starter template](https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template) if you want.
 
-1. Read the cookie's value.
-2. Increase its value by 1 and add it to the repsonse.
-3. Respond with "<h1>I have seen you n times before</h1>" where n is the value of the cookie.
+
+## 6. Make time serve a template
+
+Make the time into a template, displaying the information in HTML format.
