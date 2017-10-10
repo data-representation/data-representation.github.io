@@ -14,7 +14,7 @@ Explain in your README how to examine the response, including the headers, using
 
 ## 2. Make the text a H1
 
-Change your web application to repsond with "<h1>Hello, world!</h1>".
+Change your web application to make "Hello, world!" a level 1 heading in HTML.
 Test your application, making sure that the HTML is rendered by your browser.
 If it isn't, fix it.
 
