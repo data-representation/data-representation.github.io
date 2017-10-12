@@ -17,6 +17,7 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 ## Problem sets
 
 1. [Go fundamentals](problems/go-fundamentals.md)
+2. [Go web applications](problems/go-web-applications.md)
 
 
 ## Submit CA
@@ -29,7 +30,7 @@ You will be asked to enter your GMIT account details to access the submission fo
 | Submission link | Kind | Deadline |
 | ----------------|------|----------|
 | [Submit Go fundamentals problem set repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUQ0VJSTNKVDBGME9GWUtQRVc5NEVUMzkzRC4u) | Optional | 6th October 2017, 24:00 |
-| Problem Sheet TBC | Optional | TBC |
+| [Submit Go web applications problem set repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUNVBNOTVZWVlOVVhFTjMxV1pNUktBMEpSVC4u) | Optional | 20th October 2017, 24:00 |
 | Problem Sheet TBC | Optional | TBC |
 | Project TBC       | Required | TBC |
 
