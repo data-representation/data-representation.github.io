@@ -53,6 +53,10 @@ You will be asked to enter your GMIT account details to access the submission fo
 1. [How Browsers Work: Behind the scenes of modern web browsers by Tali Garsiel and Paul Irish](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 1. [Stack Overflow: The Architecture - 2016 Edition by Nick Craver](https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)
 1. [15 Practical Linux cURL Command Examples](http://www.thegeekstuff.com/2012/04/curl-examples/)
+1. [Mozilla Developer Network (MDN) HTTP docs](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+1. [MDN HTTP cookies docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+1. [MDN Sending form data](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data)
+1. [MDN AJAX Getting started](https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started)
 
 
 #### Go
