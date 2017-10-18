@@ -4,7 +4,7 @@ The following is largely taken from [MDN's HTTP cookies documentation](https://d
 
 ## What are cookies?
 Cookies are just name-value pairs.
-For example a cookie's name might be `age` and its value `21`.
+For example, a cookie's name might be `age` and its value `21`.
 Note that both the name and value of a cookie are text, and so are represented in programming languages as strings.
 So, the value `21` above is not stored as an integer but rather as a string with the two characters '2' and '1'.
 Remember, HTTP is mainly just text.
@@ -16,7 +16,7 @@ Here's [MDN's HTTP documentation](https://developer.mozilla.org/en-US/docs/Web/H
 > *HTTP is stateless, but not sessionless*
 > HTTP is stateless: there is no link between two requests being successively carried out on the same connection. This immediately has the prospect of being problematic for users attempting to interact with certain pages coherently, for example, using e-commerce shopping baskets. But while the core of HTTP itself is stateless, HTTP cookies allow the use of stateful sessions. Using header extensibility, HTTP Cookies are added to the workflow, allowing session creation on each HTTP request to share the same context, or the same state.
 
-So statelessness means that there is no way for a server to chain two requests together.
+So, statelessness means that there is no way for a server to chain two requests together.
 It must deal with each request as an atomic, fully-contained unit by itself.
 Cookies can be used to identify requests coming from the same client.
 
@@ -46,6 +46,7 @@ Cookie: yummy_cookie=choco; tasty_cookie=strawberry
 ```
 
 ## Sessions
+
 Cookies can be used to set up sessions.
 Sessions are a series of communications between a HTTP client and server, usually over a short period of time.
 The server sets a session cookie (no timestamp) with a unique identifier for each user/session.
@@ -53,7 +54,8 @@ The cookie is often deleted by the browser upon closing.
 
 
 ## Cookies in Go
-In Go, the `http` package provides a struct to to represent a cookie.
+
+In Go, the `http` package provides a struct to represent a cookie.
 Structs are just convenient ways of grouping variables together - rather than having two variables in scope called `cookie_name` and `cookie_value`, we encapsulate them user a single variable of type Cookie, along with any other related variables.
 We can then access them using dot notation, e.g. `mycookie.name` and `mycookie.value`. 
 
