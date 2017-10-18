@@ -14,6 +14,14 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 5. [How to use the curl command-line tool](notes/curl.md)
 
 
+## Project
+
+Please remember that the project is the **only** mandatory continuous assessment element for this module.
+The submission link is [available below](https://data-representation.github.io/#submit-ca).
+
+1. [Project instructions](problems/project.md)
+
+
 ## Problem sets
 
 1. [Go fundamentals](problems/go-fundamentals.md)
@@ -30,9 +38,9 @@ You will be asked to enter your GMIT account details to access the submission fo
 | Submission link | Kind | Deadline |
 | ----------------|------|----------|
 | [Submit Go fundamentals problem set repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUQ0VJSTNKVDBGME9GWUtQRVc5NEVUMzkzRC4u) | Optional | 6th October 2017, 24:00 |
-| [Submit Go web applications problem set repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUNVBNOTVZWVlOVVhFTjMxV1pNUktBMEpSVC4u) | Optional | 20th October 2017, 24:00 |
+| [Submit Go web applications problem set repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUNVBNOTVZWVlOVVhFTjMxV1pNUktBMEpSVC4u) | Optional | 27th October 2017, 24:00 |
 | Problem Sheet TBC | Optional | TBC |
-| Project TBC       | Required | TBC |
+| [Submit Project repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUODgyVDFaQUdQSzc3MFRSNUxHNzlIQ0hHTi4u) | Required | 24th November 2017, 24:00 |
 
 
 ## Resources
