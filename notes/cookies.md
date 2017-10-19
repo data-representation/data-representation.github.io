@@ -13,8 +13,8 @@ Remember, HTTP is mainly just text.
 ## Why use cookies?
 Here's [MDN's HTTP documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) on the fact that HTTP is a stateless protocol:
 
-> *HTTP is stateless, but not sessionless*
-> HTTP is stateless: there is no link between two requests being successively carried out on the same connection. This immediately has the prospect of being problematic for users attempting to interact with certain pages coherently, for example, using e-commerce shopping baskets. But while the core of HTTP itself is stateless, HTTP cookies allow the use of stateful sessions. Using header extensibility, HTTP Cookies are added to the workflow, allowing session creation on each HTTP request to share the same context, or the same state.
+> *HTTP is stateless, but not sessionless:*
+> There is no link between two requests being successively carried out on the same connection. This immediately has the prospect of being problematic for users attempting to interact with certain pages coherently, for example, using e-commerce shopping baskets. But while the core of HTTP itself is stateless, HTTP cookies allow the use of stateful sessions. Using header extensibility, HTTP Cookies are added to the workflow, allowing session creation on each HTTP request to share the same context, or the same state.
 
 So, statelessness means that there is no way for a server to chain two requests together.
 It must deal with each request as an atomic, fully-contained unit by itself.
@@ -26,7 +26,7 @@ Cookies can be used to identify requests coming from the same client.
 1. Client sends a first HTTP request to server. No cookies are set yet.
 2. Server receives the request, checks for a cookie and sees there isn't one. It sends a response with a `Set-Cookie` header line.
 3. The client receives the response and stores the cookie.
-4. The client sends another response to the same server with the cookie in the `Cookie` header line.
+4. The client sends another request to the same server with the cookie in the `Cookie` header line.
 5. The server accepts the request, sees the cookie is set and changes its response based on the cookie.
 
 
@@ -87,7 +87,7 @@ Note that the latter two are pointers, which is the most typical way to deal wit
 ```go
 mycookie := http.Cookie{Name: "uid", Value: "ke2fowp3"}
 mycookieptr := &http.Cookie{Name: "uid", Value: "ke2fowp3"}
-mtcookienewptr := new(http.Cookie)
+mycookienewptr := new(http.Cookie)
 ```
 
 The snippet `http.Cookie{Name: "uid", Value: "ke2fowp3"}` is called a struct literal, like the way `"Hello, world!"` is called a string literal.
