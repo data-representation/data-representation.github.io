@@ -13,6 +13,8 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 4. [The HyperText Transfer Protocol (HTTP)](notes/http.md)
 5. [How to use the curl command-line tool](notes/curl.md)
 6. [Cookies and Go](notes/cookies.md)
+7. [Static files and templates](https://youtu.be/GTSq1VPPFco)
+8. [Form data](https://youtu.be/dShPcfRchVs)
 
 
 ## Project
