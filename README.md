@@ -15,6 +15,7 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 6. [Cookies and Go](notes/cookies.md)
 7. [Static files and templates](https://youtu.be/GTSq1VPPFco)
 8. [Form data](https://youtu.be/dShPcfRchVs)
+9. [AJAX](notes/ajax.md)
 
 
 ## Project
