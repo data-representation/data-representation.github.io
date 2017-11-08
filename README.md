@@ -8,14 +8,15 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 ## Notes
 
 1. [Learning the fundamentals of Go](notes/go.md)
-2. [Using Git](notes/git.md)
-3. [How browsers work](notes/browsers.md)
-4. [The HyperText Transfer Protocol (HTTP)](notes/http.md)
-5. [How to use the curl command-line tool](notes/curl.md)
-6. [Cookies and Go](notes/cookies.md)
-7. [Static files and templates](https://youtu.be/GTSq1VPPFco)
-8. [Form data](https://youtu.be/dShPcfRchVs)
-9. [AJAX](notes/ajax.md)
+1. [Using Git](notes/git.md)
+1. [How browsers work](notes/browsers.md)
+1. [The HyperText Transfer Protocol (HTTP)](notes/http.md)
+1. [How to use the curl command-line tool](notes/curl.md)
+1. [Cookies and Go](notes/cookies.md)
+1. [Static files and templates](https://youtu.be/GTSq1VPPFco)
+1. [Form data](https://youtu.be/dShPcfRchVs)
+1. [AJAX](notes/ajax.md)
+1. [Regular Expressions in Go](notes/regexp-go.md)
 
 
 ## Project
@@ -30,6 +31,7 @@ The submission link is [available below](https://data-representation.github.io/#
 
 1. [Go fundamentals](problems/go-fundamentals.md)
 2. [Go web applications](problems/go-web-applications.md)
+3. [Go regular expressions](problems/go-regexp.md)
 
 
 ## Submit CA
@@ -43,7 +45,7 @@ You will be asked to enter your GMIT account details to access the submission fo
 | ----------------|------|----------|
 | [Submit Go fundamentals problem set repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUQ0VJSTNKVDBGME9GWUtQRVc5NEVUMzkzRC4u) | Optional | 6th October 2017, 24:00 |
 | [Submit Go web applications problem set repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUNVBNOTVZWVlOVVhFTjMxV1pNUktBMEpSVC4u) | Optional | 27th October 2017, 24:00 |
-| Problem Sheet TBC | Optional | TBC |
+| [Submit Go regular expressions problem set repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUMjVROEVOUDNDRlpNMEUwMklaTzUxUjZXVi4u) | Optional | 1st December 2017, 24:00 |
 | [Submit Project repository link](https://forms.office.com/Pages/ResponsePage.aspx?id=rs8Gj9UihEykbT2-PJNVjRknsyDoQWBFn3_IO6dRIpxUODgyVDFaQUdQSzc3MFRSNUxHNzlIQ0hHTi4u) | Required | 24th November 2017, 24:00 |
 
 
