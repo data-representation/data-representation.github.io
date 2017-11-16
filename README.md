@@ -61,6 +61,7 @@ You will be asked to enter your GMIT account details to access the submission fo
 1. [Bonus problems](problems/bonus.md)
 1. [Go cookies example repository](https://github.com/data-representation/go-cookies)
 1. [Go AJAX example repository](https://github.com/data-representation/go-ajax)
+1. [Eliza examples gist](https://gist.github.com/ianmcloughlin/c4c2b8dc586d06943f54b75d9e2250fe)
 
 #### HTTP
 1. [curl homepage](https://curl.haxx.se/)
