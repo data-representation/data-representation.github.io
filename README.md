@@ -17,7 +17,7 @@ You can contact me at [ian.mcloughlin@gmit.ie](mailto:ian.mcloughlin@gmit.ie).
 1. [Form data](https://youtu.be/dShPcfRchVs)
 1. [AJAX](notes/ajax.md)
 1. [Regular Expressions in Go](notes/regexp-go.md)
-
+1. [Eliza in Go playlist](https://www.youtube.com/playlist?list=PL3nnHtOvJ8UsTi2gAXqLyqrx1X2kFQzxm)
 
 ## Project
 
@@ -62,6 +62,7 @@ You will be asked to enter your GMIT account details to access the submission fo
 1. [Go cookies example repository](https://github.com/data-representation/go-cookies)
 1. [Go AJAX example repository](https://github.com/data-representation/go-ajax)
 1. [Eliza examples gist](https://gist.github.com/ianmcloughlin/c4c2b8dc586d06943f54b75d9e2250fe)
+1. [Eliza in Go (command line) example repository](https://github.com/data-representation/eliza)
 
 #### HTTP
 1. [curl homepage](https://curl.haxx.se/)
