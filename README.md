@@ -75,6 +75,7 @@ You will be asked to enter your GMIT account details to access the submission fo
 1. [MDN HTTP cookies docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 1. [MDN Sending form data](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data)
 1. [MDN AJAX Getting started](https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started)
+1. [Employee #1: Amazon, Y Combinator](http://blog.ycombinator.com/employee-1-amazon/)
 
 
 #### Go
